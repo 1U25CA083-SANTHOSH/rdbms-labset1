@@ -10,12 +10,11 @@ CREATE TABLE Student(
     DepartmentID INT(5)
 );
 
--- Add Email and PhoneNumber columns
+
 ALTER TABLE Student
 ADD (
     Email VARCHAR(30),
     PhoneNumber BIGINT
 );
 
--- Display the modified table structure
 DESCRIBE Student;
