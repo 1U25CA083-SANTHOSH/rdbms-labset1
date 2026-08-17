@@ -18,14 +18,14 @@ VALUES
 (1002,'Divya','Female',102),
 (1003,'Karthik','Male',101);
 
--- Update Karthik's DepartmentID from 101 to 103
+
 UPDATE Student
 SET DepartmentID = 103
 WHERE StudentName = 'Karthik';
 
--- Delete the student whose StudentID is 1002
+
 DELETE FROM Student
 WHERE StudentID = 1002;
 
--- Display the updated Student table
+
 SELECT * FROM Student;
